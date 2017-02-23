@@ -1,0 +1,127 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Navigation stayles */
+.nav {
+    padding: 20px;
+    height: 50px;
+}
+.nav img {
+    height: 45px;
+}
+#logo {
+    margin-left: 20px;
+}
+#logo, #hamburger {
+    float: left;
+}
+#input, #search {
+    float: right;
+}
+#input {
+    height: 41px;
+    width: 204px;
+    margin-right: 20px;
+}
+
+
+
+/* Two main columns */
+.col-1 {
+    box-sizing: border-box;
+    width: 70%;
+    height: 100vh;
+    border: 20px solid #444444;
+    float: left;
+}
+.col-2 {
+    box-sizing: border-box;
+    float: right;
+    width: 30%;
+    height: 800px;
+    background-color: #F3F3F3;
+}
+.col-top {
+    float: left;
+    width: 70%;
+    border-bottom: 10px solid #A26E1D;
+}
+.col-top2 {
+    float: right;
+    margin-top: -10px;
+    width: 30%;
+    border-bottom: 10px solid #F9C07F;
+}
+
+
+
+/* Headline text inside box */
+.headline {
+    padding: 10px 50px 0;
+}
+.col-1 h1 {
+    font-family: Impact;
+    font-size: 34px;
+    float: left;
+    width: 85%;
+}
+.col-1 img {
+    float: right;
+    height: 60px;
+    padding-top: 18px;
+}
+.clearfix {
+    clear: both;
+}
+
+
+/* light gray break after headline */
+.breaker {
+    width: 100%;
+    height: 44px;
+    background-color: #F3F3F3;
+}
+.breaker p {
+    margin: 0;
+    padding-top: 13px;
+    padding-left: 40px;
+    color: #B1AFAC;
+    letter-spacing: 0.05em;
+}
+.bold {
+    color: #37A8F7;
+    font-weight: bold;
+}
+
+
+/* Main text after break */
+.headline p, blockquote {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 1.3em;
+}
+blockquote {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.quote {
+    margin: 0;
+    padding-left: 40px;
+    color: #9D9D9D;
+    letter-spacing: 0.06em;
+    font-size: 14px;
+}
+
+/* Column 2 styles */
+.col-2 img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
