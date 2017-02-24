@@ -125,3 +125,72 @@ blockquote {
     width: 100%;
     padding: 20px;
 }
+
+/* iPad */
+@media (max-width: 700px) {
+    #input {
+        display: none;
+    }
+    .nav {
+        height: 40px;
+        padding: 10px;
+    }
+    .nav img {
+        height: 40px;
+    }
+    .headline {
+        padding: 12px;
+    }
+    col-1 {
+        height: 100px;
+    }
+}
+
+/* iPhone */
+@media (max-width: 667px) {
+    .nav, .nav img{
+        height: 35px;
+    }
+    .col-1, .col-2 {
+        float: none;
+        width: 100%;
+    }
+    .col-1 {
+        height: 100%;
+    }
+    .col-1 h1 {
+        font-size: 29px;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .col-1 img {
+        display: none;
+    }
+    .col-top {
+        width: 100%;
+    }
+    .col-top2 {
+        display: none;
+    }
+    .breaker p {
+        font-size: 13px;
+    }
+    .headline p, blockquote {
+        font-size: 16px;
+    }
+}
+
+/* iPhone 5 */
+@media (max-width: 346px) {
+    .col-top {
+        display: none;
+    }
+    .breaker p {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    #search {
+        display: none;
+    }
+}
